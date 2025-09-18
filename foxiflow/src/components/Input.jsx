@@ -1,3 +1,5 @@
+'use client';
+
 export default function Input({ label, type = 'text', value, onChange, error }) {
 return (
     <div className="flex flex-col gap-1">
